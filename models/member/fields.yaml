@@ -11,6 +11,9 @@ fields:
     commentAbove: "yamobile.staff::lang.member.fields.slug.comment"
     span: auto
     type: text
+    preset:
+      field: name
+      type: slug
   photo:
     label: "yamobile.staff::lang.member.fields.photo.label"
     commentAbove: "yamobile.staff::lang.member.fields.photo.comment"
