@@ -29,8 +29,8 @@ class Plugin extends PluginBase
                 'sideMenu' => [
                     'members' => [
                         'label'       => 'yamobile.staff::lang.member.name',
-                        'icon'        => 'icon-plus',
-                        'url'         => Backend::url('yamobile/staff/members/create'),
+                        'icon'        => 'oc-icon-group',
+                        'url'         => Backend::url('yamobile/staff/members'),
                         'permissions' => ['yamobile.staff.access_members']
                     ],
                 ]
