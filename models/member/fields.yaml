@@ -1,0 +1,54 @@
+fields:
+  name:
+    label: "yamobile.staff::lang.member.fields.name.label"
+    placeholder: "yamobile.staff::lang.member.fields.name.placeholder"
+    commentAbove: "yamobile.staff::lang.member.fields.name.comment"
+    span: auto
+    type: text
+  slug:
+    label: "yamobile.staff::lang.member.fields.slug.label"
+    placeholder: "yamobile.staff::lang.member.fields.slug.placeholder"
+    commentAbove: "yamobile.staff::lang.member.fields.slug.comment"
+    span: auto
+    type: text
+  photo:
+    label: "yamobile.staff::lang.member.fields.photo.label"
+    commentAbove: "yamobile.staff::lang.member.fields.photo.comment"
+    span: auto
+    mode: image
+    type: mediafinder
+  description:
+    label: "yamobile.staff::lang.member.fields.description.label"
+    placeholder: "yamobile.staff::lang.member.fields.description.placeholder"
+    commentAbove: "yamobile.staff::lang.member.fields.description.comment"
+    span: auto
+    type: textarea
+  content:
+    label: "yamobile.staff::lang.member.fields.content.label"
+    commentAbove: "yamobile.staff::lang.member.fields.content.comment"
+    size: giant
+    span: full
+    type: richeditor
+tabs:
+  fields:
+    meta_title:
+      label: "yamobile.staff::lang.member.fields.meta_title.label"
+      placeholder: "yamobile.staff::lang.member.fields.meta_title.placeholder"
+      commentAbove: "yamobile.staff::lang.member.fields.meta_title.comment"
+      span: full
+      type: text
+      tab: SEO
+    meta_description:
+      label: "yamobile.staff::lang.member.fields.meta_description.label"
+      placeholder: "yamobile.staff::lang.member.fields.meta_description.placeholder"
+      commentAbove: "yamobile.staff::lang.member.fields.meta_description.comment"
+      span: full
+      type: text
+      tab: SEO
+    meta_keywords:
+      label: "yamobile.staff::lang.member.fields.meta_keywords.label"
+      placeholder: "yamobile.staff::lang.member.fields.meta_keywords.placeholder"
+      commentAbove: "yamobile.staff::lang.member.fields.meta_keywords.comment"
+      span: full
+      type: text
+      tab: SEO
