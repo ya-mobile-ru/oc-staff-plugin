@@ -20,6 +20,6 @@ class Members extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Yamobile.Staff', 'yamobile-staff-menu-item', 'yamobile-staff-members-menu-item');
+        BackendMenu::setContext('Yamobile.Staff', 'staff', 'members');
     }
 }
