@@ -51,6 +51,10 @@ class Plugin extends PluginBase
                 'tab'   => 'yamobile.staff::lang.member.permissions.tab',
                 'label' => 'yamobile.staff::lang.member.permissions.access_members.label',
             ],
+            'yamobile.staff.access_positions' => [
+                'tab'   => 'yamobile.staff::lang.position.permissions.tab',
+                'label' => 'yamobile.staff::lang.position.permissions.access_positions.label',
+            ],
         ];
     }
 }
