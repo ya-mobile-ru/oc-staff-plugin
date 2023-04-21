@@ -27,4 +27,14 @@ class Member extends Model
         'name' => 'required',
         'slug' => 'required',
     ];
+
+    /**
+     * @var array Relations
+     */
+    public $belongsToMany = [
+        'positions' => [
+            \Yamobile\Staff\Models\Position::class,
+            'table' => 'yamobile_staff_members_to_positions',
+        ],
+    ];
 }

@@ -55,6 +55,10 @@ return [
                 'comment' => 'Slug параметр для страницы сотрудника',
                 'placeholder' => 'name-surname',
             ],
+            'positions' => [
+                'label' => 'Должности',
+                'comment' => 'Должности сотрудника, может быть несколько',
+            ],
             'meta_title' => [
                 'label' => 'Title',
                 'comment' => 'Используется в мета-теге title на странице категории',

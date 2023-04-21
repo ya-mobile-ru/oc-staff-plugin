@@ -55,6 +55,10 @@ return [
                 'comment' => 'Slug parameter for staff member page',
                 'placeholder' => 'name-surname',
             ],
+            'positions' => [
+                'label' => 'Positions',
+                'comment' => 'Staff member positions, may be several',
+            ],
             'meta_title' => [
                 'label' => 'Title',
                 'comment' => 'Used in the title meta tag on the staff member page',

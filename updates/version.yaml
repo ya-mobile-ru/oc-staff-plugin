@@ -6,3 +6,4 @@
 0.3.0:
   - "Add positions"
   - create_positions.php
+  - create_members_to_positions.php
