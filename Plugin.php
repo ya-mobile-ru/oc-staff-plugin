@@ -39,6 +39,12 @@ class Plugin extends PluginBase
                         'url'         => Backend::url('yamobile/staff/positions'),
                         'permissions' => ['yamobile.staff.access_positions']
                     ],
+                    'categories' => [
+                        'label'       => 'yamobile.staff::lang.category.name',
+                        'icon'        => 'oc-icon-th-list',
+                        'url'         => Backend::url('yamobile/staff/categories'),
+                        'permissions' => ['yamobile.staff.access_categories']
+                    ],
                 ]
             ]
         ];
@@ -54,6 +60,10 @@ class Plugin extends PluginBase
             'yamobile.staff.access_positions' => [
                 'tab'   => 'yamobile.staff::lang.position.permissions.tab',
                 'label' => 'yamobile.staff::lang.position.permissions.access_positions.label',
+            ],
+            'yamobile.staff.access_categories' => [
+                'tab'   => 'yamobile.staff::lang.category.permissions.tab',
+                'label' => 'yamobile.staff::lang.category.permissions.access_categories.label',
             ],
         ];
     }
