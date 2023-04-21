@@ -20,6 +20,13 @@ columns:
     searchable: true
     relation: positions
     valueFrom: name
+  categories:
+    label: "yamobile.staff::lang.member.fields.categories.label"
+    type: text
+    align: left
+    searchable: true
+    relation: categories
+    valueFrom: name
   created_at:
     label: "yamobile.staff::lang.member.fields.created_at.label"
     type: datetime

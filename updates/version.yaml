@@ -7,3 +7,7 @@
   - "Add positions"
   - create_positions.php
   - create_members_to_positions.php
+0.4.0:
+  - "Add categories"
+  - create_categories.php
+  - create_members_to_categories.php

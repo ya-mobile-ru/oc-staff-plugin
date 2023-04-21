@@ -26,10 +26,17 @@ fields:
     commentAbove: "yamobile.staff::lang.member.fields.description.comment"
     span: auto
     type: textarea
+    size: small
   positions:
     label: "yamobile.staff::lang.member.fields.positions.label"
     commentAbove: "yamobile.staff::lang.member.fields.positions.comment"
-    span: full
+    span: auto
+    type: relation
+    nameFrom: name
+  categories:
+    label: "yamobile.staff::lang.member.fields.categories.label"
+    commentAbove: "yamobile.staff::lang.member.fields.categories.comment"
+    span: auto
     type: relation
     nameFrom: name
   content:
