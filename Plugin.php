@@ -33,6 +33,12 @@ class Plugin extends PluginBase
                         'url'         => Backend::url('yamobile/staff/members'),
                         'permissions' => ['yamobile.staff.access_members']
                     ],
+                    'positions' => [
+                        'label'       => 'yamobile.staff::lang.position.name',
+                        'icon'        => 'oc-icon-briefcase',
+                        'url'         => Backend::url('yamobile/staff/positions'),
+                        'permissions' => ['yamobile.staff.access_positions']
+                    ],
                 ]
             ]
         ];
