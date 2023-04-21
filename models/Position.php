@@ -7,34 +7,22 @@ use Model;
 /**
  * Model
  */
-class Member extends Model
+class Position extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\SoftDelete;
-    use \October\Rain\Database\Traits\Sortable;
 
     protected $dates = ['deleted_at'];
 
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'yamobile_staff_members';
+    public $table = 'yamobile_staff_positions';
 
     /**
      * @var array Validation rules
      */
     public $rules = [
         'name' => 'required',
-        'slug' => 'required',
-    ];
-
-    /**
-     * @var array Relations
-     */
-    public $belongsToMany = [
-        'positions' => [
-            \Yamobile\Staff\Models\Position::class,
-            'table' => 'yamobile_staff_members_to_positions',
-        ],
     ];
 }

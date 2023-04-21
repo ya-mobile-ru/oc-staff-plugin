@@ -55,6 +55,10 @@ return [
                 'comment' => 'Slug parameter for staff member page',
                 'placeholder' => 'name-surname',
             ],
+            'positions' => [
+                'label' => 'Positions',
+                'comment' => 'Staff member positions, may be several',
+            ],
             'meta_title' => [
                 'label' => 'Title',
                 'comment' => 'Used in the title meta tag on the staff member page',
@@ -84,6 +88,53 @@ return [
             'tab' => 'Staff',
             'access_members' => [
                 'label' => 'Staff members managing',
+            ],
+        ],
+    ],
+    'position' => [
+        'name' => 'Positions',
+        'pages' => [
+            'index' => [
+                'title' => 'Positions',
+                'breadcrumb' => 'Positions',
+            ],
+            'preview' => [
+                'title' => 'Position preview',
+                'breadcrumb' => 'Position preview',
+            ],
+            'create' => [
+                'title' => 'Position add',
+                'breadcrumb' => 'Position add',
+            ],
+            'update' => [
+                'title' => 'Position update',
+                'breadcrumb' => 'Position update',
+            ],
+            'reorder' => [
+                'title' => 'Positions reorder',
+                'breadcrumb' => 'Positions reorder',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Name',
+                'comment' => 'Position name',
+                'placeholder' => 'Position',
+            ],
+            'created_at' => [
+                'label' => 'Created at',
+            ],
+            'updated_at' => [
+                'label' => 'Updated at',
+            ],
+        ],
+        'permissions' => [
+            'tab' => 'Staff',
+            'access_positions' => [
+                'label' => 'Positions managing',
             ],
         ],
     ],

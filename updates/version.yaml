@@ -3,3 +3,7 @@
 0.2.0:
   - "Add members"
   - create_members.php
+0.3.0:
+  - "Add positions"
+  - create_positions.php
+  - create_members_to_positions.php

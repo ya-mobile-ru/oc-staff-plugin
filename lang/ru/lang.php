@@ -55,6 +55,10 @@ return [
                 'comment' => 'Slug параметр для страницы сотрудника',
                 'placeholder' => 'name-surname',
             ],
+            'positions' => [
+                'label' => 'Должности',
+                'comment' => 'Должности сотрудника, может быть несколько',
+            ],
             'meta_title' => [
                 'label' => 'Title',
                 'comment' => 'Используется в мета-теге title на странице категории',
@@ -84,6 +88,49 @@ return [
             'tab' => 'Сотрудники',
             'access_members' => [
                 'label' => 'Управление сотрудниками',
+            ],
+        ],
+    ],
+    'position' => [
+        'name' => 'Должности',
+        'pages' => [
+            'index' => [
+                'title' => 'Должности',
+                'breadcrumb' => 'Должности',
+            ],
+            'preview' => [
+                'title' => 'Просмотр должности',
+                'breadcrumb' => 'Просмотр должности',
+            ],
+            'create' => [
+                'title' => 'Добавление должности',
+                'breadcrumb' => 'Добавление должности',
+            ],
+            'update' => [
+                'title' => 'Обновление должности',
+                'breadcrumb' => 'Обновление должности',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Название',
+                'comment' => 'Название должности',
+                'placeholder' => 'Должность',
+            ],
+            'created_at' => [
+                'label' => 'Создано',
+            ],
+            'updated_at' => [
+                'label' => 'Обновлено',
+            ],
+        ],
+        'permissions' => [
+            'tab' => 'Сотрудники',
+            'access_positions' => [
+                'label' => 'Управление должностями',
             ],
         ],
     ],
