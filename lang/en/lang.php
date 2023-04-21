@@ -87,4 +87,51 @@ return [
             ],
         ],
     ],
+    'position' => [
+        'name' => 'Positions',
+        'pages' => [
+            'index' => [
+                'title' => 'Positions',
+                'breadcrumb' => 'Positions',
+            ],
+            'preview' => [
+                'title' => 'Position preview',
+                'breadcrumb' => 'Position preview',
+            ],
+            'create' => [
+                'title' => 'Position add',
+                'breadcrumb' => 'Position add',
+            ],
+            'update' => [
+                'title' => 'Position update',
+                'breadcrumb' => 'Position update',
+            ],
+            'reorder' => [
+                'title' => 'Positions reorder',
+                'breadcrumb' => 'Positions reorder',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Name',
+                'comment' => 'Position name',
+                'placeholder' => 'Position',
+            ],
+            'created_at' => [
+                'label' => 'Created at',
+            ],
+            'updated_at' => [
+                'label' => 'Updated at',
+            ],
+        ],
+        'permissions' => [
+            'tab' => 'Staff',
+            'access_positions' => [
+                'label' => 'Positions managing',
+            ],
+        ],
+    ],
 ];
