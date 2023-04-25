@@ -185,4 +185,16 @@ return [
             ],
         ],
     ],
+    'components' => [
+        'member' => [
+            'name' => 'Сотрудник',
+            'description' => 'Отображает данные конкретного сотрудника',
+            'properties' => [
+                'slug' => [
+                    'title' => 'slug',
+                    'description' => 'URL параметр',
+                ],
+            ],
+        ],
+    ],
 ];

@@ -193,4 +193,16 @@ return [
             ],
         ],
     ],
+    'components' => [
+        'member' => [
+            'name' => 'Member',
+            'description' => 'Displays current staff member data',
+            'properties' => [
+                'slug' => [
+                    'title' => 'slug',
+                    'description' => 'URL parameter',
+                ],
+            ],
+        ],
+    ],
 ];

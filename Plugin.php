@@ -67,4 +67,12 @@ class Plugin extends PluginBase
             ],
         ];
     }
+
+    public function registerComponents()
+    {
+        return [
+            \Yamobile\Staff\Components\MemberComponent::class => 'Member',
+        ];
+
+    }
 }
