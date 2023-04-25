@@ -33,6 +33,7 @@ class Category extends Model
         'members' => [
             \Yamobile\Staff\Models\Member::class,
             'table' => 'yamobile_staff_members_to_positions',
+            'scope' => 'isActive',
         ],
     ];
 }

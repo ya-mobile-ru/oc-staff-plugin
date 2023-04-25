@@ -27,6 +27,9 @@ columns:
     searchable: true
     relation: categories
     valueFrom: name
+  is_active:
+    label: 'yamobile.staff::lang.member.fields.is_active.label'
+    type: switch
   created_at:
     label: "yamobile.staff::lang.member.fields.created_at.label"
     type: datetime

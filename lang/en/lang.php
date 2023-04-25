@@ -37,6 +37,10 @@ return [
                 'comment' => 'Staff member full name',
                 'placeholder' => 'Name Surname',
             ],
+            'is_active' => [
+                'label' => 'Active',
+                'comment' => 'Inactive members will not be displayed',
+            ],
             'photo' => [
                 'label' => 'Photo',
                 'comment' => 'Staff member photo',
