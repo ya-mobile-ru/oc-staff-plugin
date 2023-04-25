@@ -14,6 +14,12 @@ fields:
     preset:
       field: name
       type: slug
+  is_active:
+    label: "yamobile.staff::lang.member.fields.is_active.label"
+    commentAbove: "yamobile.staff::lang.member.fields.is_active.comment"
+    span: full
+    default: 1
+    type: switch
   photo:
     label: "yamobile.staff::lang.member.fields.photo.label"
     commentAbove: "yamobile.staff::lang.member.fields.photo.comment"

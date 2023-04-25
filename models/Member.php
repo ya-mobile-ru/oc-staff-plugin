@@ -41,4 +41,9 @@ class Member extends Model
             'table' => 'yamobile_staff_members_to_categories',
         ],
     ];
+
+    public function scopeIsActive($query)
+    {
+        return $query->where('is_active', true)->orderBy('sort_order', 'asc');
+    }
 }
