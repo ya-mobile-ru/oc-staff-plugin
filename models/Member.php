@@ -44,6 +44,6 @@ class Member extends Model
 
     public function scopeIsActive($query)
     {
-        return $query->where('is_active', true)->orderBy('name', 'desc');
+        return $query->where('is_active', true)->orderBy('sort_order', 'asc');
     }
 }
