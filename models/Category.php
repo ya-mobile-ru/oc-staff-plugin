@@ -32,7 +32,7 @@ class Category extends Model
     public $belongsToMany = [
         'members' => [
             \Yamobile\Staff\Models\Member::class,
-            'table' => 'yamobile_staff_members_to_positions',
+            'table' => 'yamobile_staff_members_to_categories',
             'scope' => 'isActive',
         ],
     ];

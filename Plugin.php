@@ -67,4 +67,14 @@ class Plugin extends PluginBase
             ],
         ];
     }
+
+    public function registerComponents()
+    {
+        return [
+            \Yamobile\Staff\Components\MemberComponent::class => 'Member',
+            \Yamobile\Staff\Components\MembersComponent::class => 'Members',
+            \Yamobile\Staff\Components\CategoriesComponent::class => 'Categories',
+        ];
+
+    }
 }
