@@ -72,6 +72,7 @@ class Plugin extends PluginBase
     {
         return [
             \Yamobile\Staff\Components\MemberComponent::class => 'Member',
+            \Yamobile\Staff\Components\MembersComponent::class => 'Members',
         ];
 
     }

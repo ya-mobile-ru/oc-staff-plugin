@@ -204,5 +204,15 @@ return [
                 ],
             ],
         ],
+        'member' => [
+            'name' => 'Members',
+            'description' => 'Displays staff members',
+            'properties' => [
+                'membersPerPage' => [
+                    'title' => 'Members per page',
+                    'description' => 'Number of staff members in one page for paginatoion, leave the field blank for display all',
+                ],
+            ],
+        ],
     ],
 ];
