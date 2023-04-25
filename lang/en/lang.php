@@ -214,5 +214,15 @@ return [
                 ],
             ],
         ],
+        'categories' => [
+            'name' => 'Categories',
+            'description' => 'Displays categories',
+            'properties' => [
+                'categoriesPerPage' => [
+                    'title' => 'Categories per page',
+                    'description' => 'Number of categories in one page for paginatoion, leave the field blank for display all',
+                ],
+            ],
+        ],
     ],
 ];
