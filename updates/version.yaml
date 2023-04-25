@@ -11,3 +11,6 @@
   - "Add categories"
   - create_categories.php
   - create_members_to_categories.php
+0.5.0:
+  - "Add active status to members"
+  - add_is_active_to_members.php
