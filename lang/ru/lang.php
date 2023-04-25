@@ -196,7 +196,7 @@ return [
                 ],
             ],
         ],
-        'member' => [
+        'members' => [
             'name' => 'Сотрудники',
             'description' => 'Выводит список сотрудников',
             'properties' => [

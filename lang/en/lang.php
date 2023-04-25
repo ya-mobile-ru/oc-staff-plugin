@@ -204,7 +204,7 @@ return [
                 ],
             ],
         ],
-        'member' => [
+        'members' => [
             'name' => 'Members',
             'description' => 'Displays staff members',
             'properties' => [
