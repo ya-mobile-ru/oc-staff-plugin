@@ -224,6 +224,10 @@ return [
                 ],
             ],
         ],
+        'settings' => [
+            'name' => 'Settings',
+            'description' => 'Displays settings data',
+        ],
     ],
     'settings' => [
         'name' => 'Staff members page settings',
