@@ -77,4 +77,19 @@ class Plugin extends PluginBase
         ];
 
     }
+
+    public function registerSettings()
+    {
+        return [
+            'staff' => [
+                'label' => 'yamobile.staff::lang.settings.name',
+                'description' => 'yamobile.staff::lang.settings.description',
+                'category' => 'yamobile.staff::lang.settings.category',
+                'icon' => 'oc-icon-group',
+                'class' => \Yamobile\Staff\Models\Settings::class,
+                'order' => 500,
+                'keywords' => 'staff members page settings'
+            ]
+        ];
+    }
 }

@@ -225,4 +225,40 @@ return [
             ],
         ],
     ],
+    'settings' => [
+        'name' => 'Staff members page settings',
+        'description' => 'Data for staff members page',
+        'category' => 'Content',
+        'fields' => [
+            'heading' => [
+                'label' => 'Heading',
+                'comment' => 'On the staff members page',
+                'placeholder' => 'Staff members',
+            ],
+            'image' => [
+                'label' => 'Image',
+                'comment' => 'On the staff members page',
+            ],
+            'description' => [
+                'label' => 'Description',
+                'comment' => 'On the staff members page',
+                'placeholder' => 'Our staff members',
+            ],
+            'meta_title' => [
+                'label' => 'Title',
+                'comment' => 'Used in the title meta tag on the staff member page',
+                'placeholder' => 'Staff members page title',
+            ],
+            'meta_description' => [
+                'label' => 'Description',
+                'comment' => 'Used in the description meta tag on the staff member page',
+                'placeholder' => 'Staff members page description.',
+            ],
+            'meta_keywords' => [
+                'label' => 'Keywords',
+                'comment' => 'Used in the keywords meta tag on the staff member page',
+                'placeholder' => 'staff, members, page, keywords',
+            ],
+        ],
+    ],
 ];
