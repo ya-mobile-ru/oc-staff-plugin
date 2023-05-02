@@ -216,5 +216,45 @@ return [
                 ],
             ],
         ],
+        'settings' => [
+            'name' => 'Настройки',
+            'description' => 'Выводит данные настроек',
+        ],
+    ],
+    'settings' => [
+        'name' => 'Настройки страницы сотрудников',
+        'description' => 'Данные для страницы сотрудников',
+        'category' => 'Содержание',
+        'fields' => [
+            'heading' => [
+                'label' => 'Заголовок',
+                'comment' => 'На странице сотрудников',
+                'placeholder' => 'Сотрудники',
+            ],
+            'image' => [
+                'label' => 'Изображение',
+                'comment' => 'На странице сотрудников',
+            ],
+            'description' => [
+                'label' => 'Описание',
+                'comment' => 'На странице сотрудников',
+                'placeholder' => 'Наши сотрудники',
+            ],
+            'meta_title' => [
+                'label' => 'Title',
+                'comment' => 'Используется в мета-теге title на странице сотрудников',
+                'placeholder' => 'Title страницы сотрудника',
+            ],
+            'meta_description' => [
+                'label' => 'Description',
+                'comment' => 'Используется в мета-теге description на странице сотрудников',
+                'placeholder' => 'Description  страницы сотрудника.',
+            ],
+            'meta_keywords' => [
+                'label' => 'Keywords',
+                'comment' => 'Используется в мета-теге keywords на странице сотрудников',
+                'placeholder' => 'ключевые, слова, страницы, сотрудника',
+            ],
+        ],
     ],
 ];
