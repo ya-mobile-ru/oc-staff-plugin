@@ -1,7 +1,7 @@
 {
   "name": "yamobile/staff-plugin",
   "type": "october-plugin",
-  "description": "description",
+  "description": "Simple plugin for publishing staff of company for October CMS.",
   "homepage": "https://github.com/ya-mobile-ru/oc-staff-plugin",
   "keywords": [
     "october",
