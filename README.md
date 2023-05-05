@@ -1,6 +1,6 @@
 # Staff plugin
 
-Staff for October CMS.
+Simple plugin for publishing staff of company for October CMS.
 
 ## Installation
 
